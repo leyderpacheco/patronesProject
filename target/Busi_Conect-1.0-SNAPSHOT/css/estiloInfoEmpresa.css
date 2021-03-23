@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow: scroll;
+    background-color: #EEE;
+}
+/*Header*/
+header{
+    width: 100%;
+    height: 70px;
+    background-image: url("../img/header.png");
+    background-size: cover;
+    /*background-attachment: fixed; */
+    position: relative;/* que se quede en el fondo estatico cuando scroll la pagina*/
+    display: flex;
+}
+/*logo de busi connect*/
+header .textos-header{
+    display: flex;
+    width: 50%;
+    align-items: center;/*cebtra vertical*/
+    justify-content: center;
+}
+header .textos-header img{
+    width: 55%;
+    margin-top: 10px;
+}
+/*navegador*/
+nav{
+    text-align: right;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+nav > .imagen-user-empresa img{
+    border-radius: 50%;
+    margin: 16px 0px;
+    width: 50px;
+}
+nav > a{
+    color: white;
+    font-weight: 300;/*maa ligera*/
+    text-decoration: none;/* quitar subrayado de un hipervinculo*/
+    margin: 28px 7px;
+    display: block;
+    align-self: auto;
+}
+nav > a:hover{/*cuando pase el mouse*/
+    text-decoration: underline;/* quitar subrayado de un hipervinculo*/
+}
+/*titulo predilecto*/
+.titulo{
+    color: #226f7a;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0 20px;
+    width: 100%;
+}
+.portafolio-empresa{
+    width: 90%;
+    max-width: 1000px;
+    margin:auto;
+    overflow: hidden;
+}
+.contenedor-empresa{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;/*si pasa de porcentaje entrarlo*/
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.5);/*sombra del circulo*/
+    background-color: #fff;
+    border-radius: 20px;
+    height: 400px;
+    margin: 6px 6px 30px 6px;
+}
+.info-empresa{
+    display: block;
+    position: relative;
+    width: 30%;
+    margin: 20px 0 20px;
+    overflow: hidden;
+    float:left;
+    padding-top: 20px;
+}
+.info-empresa img{
+    width: 100%
+    /*border: 1px solid black;
+    border-radius: 20%;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.5);sombra del circulo*/
+
+}
+.info-empresa ul{
+    margin: 25px; 
+}
+
+
+
+.info-empresa div {
+    display: block;
+    width:70%;
+    margin:2px;
+    display: inline-block;  
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.info-empresa a {
+    text-decoration:none;
+    display: block;
+    padding-left: 20px;
+    color: #FFFFFF !important;
+    font-weight: bold;
+    transition:background-color .3s; 
+    background: #3B5999 url('../img/fb2.png') no-repeat 10px center;
+   
+}
+.cod-descuento a{
+    padding: 7px 10px 7px 26px;
+    background: #226f7a 10px center;
+}
+.fb a {
+    padding: 7px 10px 7px 26px;
+    background: #3B5999 url('../img/fb2.png') no-repeat 10px center;
+}
+.instagram a {
+    padding: 7px 10px 7px 32px;
+    background: #000000 url('../img/ig.png') no-repeat 8px center;
+}
+.whatsapp a {
+    padding: 7px 10px 7px 32px;
+    background: #00bb2d url('../img/ws.png') no-repeat 10px center;
+}
+.gplus a {
+    padding: 7px 10px 7px 32px;
+    background: #D54135 url('../img/goo.png') no-repeat 10px center;
+}
+
+
+.cod-descuento a:hover {
+    background-color: rgb(29, 95, 105);
+}
+.fb a:hover {
+    background-color: rgb(50, 75, 129);
+}
+.instagram a:hover {
+    background-color: rgb(62, 62, 62);
+}
+.whatsapp a:hover {
+    background-color: rgb(1, 170, 42);
+}
+.gplus a:hover {
+    background-color: rgb(191, 52, 40);
+}
+footer{
+  background-color: #226f7a;
+  padding: 40px 0 30px 0;
+  margin: auto;
+  overflow: hidden;
+  height: 200px;
+}
+.contenedor-footer{
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #44b4c4;
+}
+.content-foo{
+  text-align: center;
+}
+.content-foo h4{
+  color: #fff;
+  border-bottom: 3px solid #44b4c4;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+.content-foo p{
+  color: #ccc;
+}
+.titulo-final{
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0 0 0;
+  color: #ccc;
+
+}

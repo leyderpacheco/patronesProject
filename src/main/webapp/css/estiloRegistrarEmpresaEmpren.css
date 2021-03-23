@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow: scroll;
+    background-color: #EEE;
+}
+/*Header*/
+header{
+    width: 100%;
+    height: 70px;
+    background-image: url("../img/header.png");
+    background-size: cover;
+    /*background-attachment: fixed; */
+    position: relative;/* que se quede en el fondo estatico cuando scroll la pagina*/
+    display: flex;
+}
+/*logo de busi connect*/
+header .textos-header{
+    display: flex;
+    width: 50%;
+    align-items: center;/*cebtra vertical*/
+    justify-content: center;
+}
+header .textos-header img{
+    width: 55%;
+    margin-top: 10px;
+}
+/*navegador*/
+nav{
+    text-align: right;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+nav > .imagen-user-empresa img{
+    border-radius: 50%;
+    margin: 16px 0px;
+    width: 50px;
+}
+nav > a{
+    color: white;
+    font-weight: 300;/*maa ligera*/
+    text-decoration: none;/* quitar subrayado de un hipervinculo*/
+    margin: 28px 7px;
+    display: block;
+    align-self: auto;
+}
+nav > a:hover{/*cuando pase el mouse*/
+    text-decoration: underline;/* quitar subrayado de un hipervinculo*/
+}
+/*titulo predilecto*/
+.titulo{
+    color: #226f7a;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0 20px;
+    width: 100%;
+}
+.portafolio-empresa{
+    width: 90%;
+    max-width: 1000px;
+    margin:auto;
+    overflow: hidden;
+    display: block;
+}
+.contenedor-empresa{
+    display: block;
+    justify-content: space-evenly;
+    flex-wrap: wrap;/*si pasa de porcentaje entrarlo*/
+    text-align: center;
+    margin: 6px 6px 30px 6px;
+    width: 400px;
+    margin: 0 auto;
+}
+.btn{
+    display: block;
+    width: 70%;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, #44b4c4, #44b4c4, #32be8f);
+    background-size: 200%;
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: .5s;
+}
+.btn:hover{
+    background-position: right;
+}
+input[type="file"] {
+    display: none;
+}
+.add-image{
+    border: 1px solid #ccc;
+
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+/*
+#Seccion{
+    width: 1200px;
+    height: 1000px;
+    background-color: #FFFFFF;
+    margin: 0.5em auto;
+}
+
+#Encabezado{
+    height: 20%;
+    background-color:#44b4c4;
+    border-radius: 1em;
+    margin: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 20:
+}
+#Cuerpo{
+    height: 60%;
+    background-color: #E7E6E6;
+    border-radius: 1em;
+    margin: 1em;
+}
+#izq{
+    width: 45%;
+    background-color: #E7E6E6;
+    border-radius: 1em;
+    margin: 1em;
+    float: left;
+    text-align: center;
+}
+.labels{
+    font-size: 15;
+    font-family:  "Lucida Console", "Courier New", sans-serif;
+    line-height : 430%;
+    
+}
+.imputs{
+   box-sizing: border-box;
+   border: 3px solid gray;
+   width: 85%;
+height: 80;
+}
+#der{
+    width: 45%;
+    background-color: #E7E6E6;
+    float: right;
+    text-align: left;
+}
+.labelsd{
+    font-size: 15;
+    font-family:  "Lucida Console", "Courier New", sans-serif;
+    line-height : 430%;
+    
+}
+.imputsd{
+    box-sizing: border-box;
+    border: 3px solid gray;
+    width: 85%;
+    height: 80;
+ }
+
+.botones{
+    width: 100px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #44b4c4;
+}
+.botones:hover {
+    background-color: #44b4c4;
+    color: white;
+  }

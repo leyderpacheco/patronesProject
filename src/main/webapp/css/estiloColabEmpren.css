@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+	background-color: #EEE;
+}
+.titulo{
+	color: #226f7a;
+	font-size: 40px;
+	text-align: center;
+	margin: 0px 0 20px;
+	width: 100%;
+}
+.contenedor-colab-empren{
+	padding: 100px 0px;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;/*si algo se quiere salir del contenedor lo esconda*/
+}
+.contenido-colab-empren{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;/*si pasa de porcentaje entrarlo*/
+}
+.colab-empren{
+	display: block;
+	position: relative;
+	width: 50%;
+	margin-bottom: 20px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.imagen-colab-empren{
+	display: block;
+	margin: 0 auto;
+	margin-top: 7px;
+	width: 70%;
+	border-radius: 50%;
+	box-shadow: 0 0 6px 0 rgba(0,0,0,0.5);/*sombra del circulo*/
+
+}
+.colab-empren > h3{
+	text-align: center;
+	color: #226f7a;
+}

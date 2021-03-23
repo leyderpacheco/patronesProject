@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	background-color: #EEE;
+}
+/*Header*/
+header{
+	width: 100%;
+	height: 70px;
+	background-image: url("../img/header.png");
+  	background-size: cover;
+  	/*background-attachment: fixed; */
+  	position: relative;/* que se quede en el fondo estatico cuando scroll la pagina*/
+	display: flex;
+}
+/*logo de busi connect*/
+header .textos-header{
+	display: flex;
+	width: 50%;
+	align-items: center;/*cebtra vertical*/
+	justify-content: center;
+}
+header .textos-header img{
+ 	width: 55%;
+ 	margin-top: 10px;
+}
+/*navegador*/
+nav{
+	text-align: right;
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+	margin-right: 20px;
+}
+nav > .imagen-user-empresa img{
+	border-radius: 50%;
+	margin: 16px 0px;
+	width: 50px;
+}
+nav > a{
+	color: white;
+	font-weight: 500;/*maa ligera*/
+	text-decoration: none;/* quitar subrayado de un hipervinculo*/
+	margin: 28px 7px;
+	display: block;
+	align-self: auto;
+}
+nav > a:hover{/*cuando pase el mouse*/
+	text-decoration: underline;/* quitar subrayado de un hipervinculo*/
+}
+/*titulo predilecto*/
+.titulo{
+	color: #226f7a;
+	font-size: 40px;
+	text-align: center;
+	margin: 20px 0 20px;
+	width: 100%;
+}
+.portafolio-empresas{
+}	
+.contenedor-empresas{
+	padding: 20px 0px;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;/*centradp automat*/
+	overflow: hidden;/*si algo se quiere salir del contenedor lo esconda*/
+}
+.contenido-empresa{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;/*si pasa de porcentaje entrarlo*/
+}
+.empresa{
+	display: block;
+	position: relative;
+	width: 30%;
+	margin-bottom: 20px;
+	overflow: hidden;
+	cursor: pointer;
+}
+#imagen-empresa{
+	display: block;
+	margin: 0 auto;
+	margin-top: 6px;
+	width: 70%;
+	border-radius: 50%;
+	box-shadow: 0 0 6px 0 rgba(0,0,0,0.5);
+
+}
+#nombre-empresa{
+	margin-top: 10px;
+	text-align: center;
+	color: #226f7a;
+}
+footer{
+  background-color: #226f7a;
+  padding: 40px 0 30px 0;
+  margin: auto;
+  overflow: hidden;
+  height: 200px;
+}
+.contenedor-footer{
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #44b4c4;
+}
+.content-foo{
+  text-align: center;
+}
+.content-foo h4{
+  color: #fff;
+  border-bottom: 3px solid #44b4c4;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+.content-foo p{
+  color: #ccc;
+}
+.titulo-final{
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0 0 0;
+  color: #ccc;
+
+}
