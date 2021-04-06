@@ -109,7 +109,7 @@ input[type="file"] {
     cursor: pointer;
     margin-bottom: 5px;
 }
-/*
+
 #Seccion{
     width: 1200px;
     height: 1000px;
@@ -123,7 +123,7 @@ input[type="file"] {
     border-radius: 1em;
     margin: 1em;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 20:
+    font-weight: 20;
 }
 #Cuerpo{
     height: 60%;
