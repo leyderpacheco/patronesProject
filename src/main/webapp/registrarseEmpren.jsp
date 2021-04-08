@@ -40,20 +40,20 @@
                         </div>
                         <p class="text-muted mb-5">Ingresa la siguiente información para registrarte.</p>
 
-                        <form action="registrarEmpresaEmpren.html">
+                        <form action="<%= request.getContextPath() %>/EmprendimientoServlet" method="post">
                             <div class="form-row mb-2">
                                 <div class="form-group col-md-6">
                                     <label class="font-weight-bold">Nombre del emprendimiento <span class="text-danger">*</span></label>
-                                    <input type="text" class="form-control" placeholder="Tu nombre">
+                                    <input type="text" class="form-control" placeholder="Tu nombre" name="nombre">
                                 </div>
                             </div>
                             <div class="form-group mb-3">
                                 <label class="font-weight-bold">Correo electrónico <span class="text-danger">*</span></label>
-                                <input type="email" class="form-control" placeholder="Ingresa tu correo electrónico">
+                                <input type="email" class="form-control" placeholder="Ingresa tu correo electrónico" name="correo">
                             </div>
                             <div class="form-group mb-3">
                                 <label class="font-weight-bold">Contraseña <span class="text-danger">*</span></label>
-                                <input type="password" class="form-control" placeholder="Ingresa una contraseña">
+                                <input type="password" class="form-control" placeholder="Ingresa una contraseña" name="contraseña">
                             </div>
                             <div class="form-group mb-5">
                                 <div class="form-check">

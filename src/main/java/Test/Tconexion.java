@@ -6,7 +6,7 @@
 
 package Test;
 
-import Conecction.conexion;
+import Model.conexion;
 /**
  * 
  * @author Sammy Guergachi <sguergachi at gmail.com>
