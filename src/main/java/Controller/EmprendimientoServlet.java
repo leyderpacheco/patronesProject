@@ -79,8 +79,10 @@ public class EmprendimientoServlet extends HttpServlet {
         String correo = request.getParameter("correo");
         String contraseña = request.getParameter("contraseña");
         
+        
         Emprendimiento emprendimiento = new Emprendimiento();
         
+        emprendimiento.setId(id);
         emprendimiento.setNombre(nombre);
         emprendimiento.setCorreo(correo);
         emprendimiento.setContraseña(contraseña);

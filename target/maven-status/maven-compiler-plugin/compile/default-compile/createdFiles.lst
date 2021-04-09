@@ -1,4 +1,8 @@
 Test\Tconexion.class
 Controller\servlet1.class
+Dao\EmprendimientoDao.class
+Model\conexion.class
 com\emprendedores\busi_conect\JAXRSConfiguration.class
+Controller\EmprendimientoServlet.class
+Model\Emprendimiento.class
 com\emprendedores\busi_conect\resources\JavaEE8Resource.class

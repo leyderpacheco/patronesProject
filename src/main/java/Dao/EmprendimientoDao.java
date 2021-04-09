@@ -20,7 +20,7 @@ public class EmprendimientoDao {
 
     public int registerEmployee(Emprendimiento emprendimiento) throws ClassNotFoundException {
         String INSERT_USERS_SQL = "INSERT INTO emprendedor"
-                + "  (id, nombre, correo, contraseña) VALUES "
+                + "  VALUES "
                 + " (?, ?, ?, ?);";
 
         int result = 0;
