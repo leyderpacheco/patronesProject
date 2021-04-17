@@ -8,6 +8,10 @@
         <servlet-name>EmprendimientoServlet</servlet-name>
         <servlet-class>Controller.EmprendimientoServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ColaboracionServlet</servlet-name>
+        <servlet-class>Controller.ColaboracionServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>servlet1</servlet-name>
         <url-pattern>/servlet1</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>EmprendimientoServlet</servlet-name>
         <url-pattern>/EmprendimientoServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ColaboracionServlet</servlet-name>
+        <url-pattern>/ColaboracionServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

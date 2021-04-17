@@ -34,7 +34,7 @@ public class EmprendimientoDao {
             preparedStatement.setInt(1, emprendimiento.getId());
             preparedStatement.setString(2, emprendimiento.getNombre());
             preparedStatement.setString(3, emprendimiento.getCorreo());
-            preparedStatement.setString(4, emprendimiento.getContraseña());
+            preparedStatement.setString(4, emprendimiento.getContrasenia());
 
             System.out.println(preparedStatement);
             // Step 3: Execute the query or update query

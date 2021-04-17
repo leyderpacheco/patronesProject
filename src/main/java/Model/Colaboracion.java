@@ -12,6 +12,7 @@ package Model;
  */
 public class Colaboracion {
     
+    private int id;
     private String nombre;
     private String apellido;
     private String correo;
@@ -24,6 +25,19 @@ public class Colaboracion {
         this.passw = passw;
     }
 
+    public Colaboracion() {
+    }
+    
+    
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+    
     public String getNombre() {
         return nombre;
     }

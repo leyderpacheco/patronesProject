@@ -77,7 +77,7 @@ public class EmprendimientoServlet extends HttpServlet {
         int id = NULL;
         String nombre = request.getParameter("nombre");
         String correo = request.getParameter("correo");
-        String contraseña = request.getParameter("contraseña");
+        String contrasenia = request.getParameter("contrasenia");
         
         
         Emprendimiento emprendimiento = new Emprendimiento();
@@ -85,7 +85,7 @@ public class EmprendimientoServlet extends HttpServlet {
         emprendimiento.setId(id);
         emprendimiento.setNombre(nombre);
         emprendimiento.setCorreo(correo);
-        emprendimiento.setContraseña(contraseña);
+        emprendimiento.setContrasenia(contrasenia);
         
         try {
             emprendimientoDao.registerEmployee(emprendimiento);

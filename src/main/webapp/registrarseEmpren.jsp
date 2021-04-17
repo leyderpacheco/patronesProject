@@ -40,7 +40,7 @@
                         </div>
                         <p class="text-muted mb-5">Ingresa la siguiente información para registrarte.</p>
 
-                        <form action="<%= request.getContextPath() %>/EmprendimientoServlet" method="post">
+                        <form action="<%= request.getContextPath()%>/EmprendimientoServlet" method="post">
                             <div class="form-row mb-2">
                                 <div class="form-group col-md-6">
                                     <label class="font-weight-bold">Nombre del emprendimiento <span class="text-danger">*</span></label>
@@ -53,7 +53,7 @@
                             </div>
                             <div class="form-group mb-3">
                                 <label class="font-weight-bold">Contraseña <span class="text-danger">*</span></label>
-                                <input type="text" class="form-control" placeholder="Ingresa una contraseña" name="contraseña">
+                                <input type="password" class="form-control" placeholder="Ingresa una contraseña" name="contrasenia">
                             </div>
                             <div class="form-group mb-5">
                                 <div class="form-check">
